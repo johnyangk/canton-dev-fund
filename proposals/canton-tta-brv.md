@@ -124,7 +124,7 @@ No backward compatibility impact. The verification work does not modify Canton p
 - **Estimated Delivery:** 1–2 months after grant approval
 - **Focus:** Confirm BRV evaluation scope with TTA against the NCSC guideline, confirm with TTA the publication scope for the reference deployment, and open the public GitHub repo for the reference deployment.
 - **Deliverables / Value Metrics:**
-  - Written acknowledgement from TTA that it is ready to begin BRV of the Canton private synchronizer
+  - Confirmation from TTA that it is ready to begin BRV of the Canton private synchronizer, verifiable by the Tech & Ops Committee (under NDA where TTA requires)
   - Public GitHub repository established under Apache 2.0
   - Published reference-deployment outline (the deployment configuration and stack to be verified, plus the metrics-reproduction plan)
   - Published NDA carve-out plan naming what will and will not be open-sourced — delivered and accepted before Milestone 1 payment
@@ -144,7 +144,7 @@ No backward compatibility impact. The verification work does not modify Canton p
 The Tech & Ops Committee will evaluate completion based on:
 
 - **Milestone 1:**
-  - Public, verifiable TTA acknowledgement letter confirming it is ready to begin BRV of the Canton private synchronizer
+  - TTA confirmation that it is ready to begin BRV of the Canton private synchronizer, verifiable by the Committee under NDA
   - Public repository established under Apache 2.0, with the reference-deployment outline published
   - NDA carve-out plan delivered and accepted (a precondition for Milestone 1 payment)
   - If the open-source surface is inadequate, grantor and grantee re-scope before payment
