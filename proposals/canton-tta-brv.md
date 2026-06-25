@@ -137,8 +137,6 @@ No backward compatibility impact. The verification work does not modify Canton p
 - **Deliverables / Value Metrics:**
   - TTA-issued BRV result for the Canton private synchronizer (publicly verifiable)
   - The TTA-verified Canton deployment configuration and stack published to repo (deployment / configuration scripts, host tuning, pinned Canton runtime, the benchmark harness, the test harness subject to TTA consultation, and the post-mortem)
-  - Canton private synchronizer holds a recognized blockchain-reliability credential for Korean STO infrastructure selection at both the infrastructure-operator tier (KSD, FSI, KFTC, peer institutions) and downstream by securities firms
-  - Portability documentation identifying Korea-specific vs. portable assumptions, enabling reuse of the verified deployment for analogous APAC verifications
 
 ---
 
