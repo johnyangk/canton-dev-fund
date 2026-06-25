@@ -125,8 +125,9 @@ No backward compatibility impact. The verification work does not modify Canton p
 - **Estimated Delivery:** 1–2 months after grant approval
 - **Focus:** Confirm BRV evaluation scope with TTA against the NCSC guideline, confirm with TTA the publication scope for the reference deployment, and open the public GitHub repo for the verified reference deployment.
 - **Deliverables / Value Metrics:**
-  - Written acknowledgement from TTA confirming engagement and scope (publicly verifiable)
+  - Written acknowledgement from TTA that the BRV engagement is starting (publicly verifiable)
   - Public GitHub repository established under Apache 2.0
+  - Published reference-deployment outline (the verified deployment configuration and stack, plus the metrics-reproduction plan)
   - Published NDA carve-out plan naming what will and will not be open-sourced — delivered and accepted before Milestone 1 payment
 
 ### Milestone 2: Blockchain Reliability Verification Issued
@@ -143,7 +144,7 @@ No backward compatibility impact. The verification work does not modify Canton p
 
 The Tech & Ops Committee will evaluate completion based on:
 
-- **Milestone 1:** Public, verifiable TTA acknowledgement letter; public repository established and NDA carve-out plan delivered (the plan is a precondition for Milestone 1 payment); if the open-source surface is inadequate, grantor and grantee re-scope before payment.
+- **Milestone 1:** Public, verifiable TTA acknowledgement letter confirming the BRV engagement is starting; public repository established with the reference-deployment outline published and NDA carve-out plan delivered (the plan is a precondition for Milestone 1 payment); if the open-source surface is inadequate, grantor and grantee re-scope before payment.
 - **Milestone 2:** TTA-issued BRV result publicly verifiable; all named non-NDA artifacts published under Apache 2.0; post-mortem published describing findings and engineering work.
 - **Ecosystem value indicators (informational, not gate; these are the adoption metrics defined in Growth and Adoption):**
   - Canton private synchronizer cited in RFPs, PoCs, or technical evaluations at KSD, FSI, KFTC, or peer infrastructure institutions designated under the Electronic Securities Act framework, or in downstream Korean securities-firm STO infrastructure selection processes.
