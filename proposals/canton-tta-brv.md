@@ -58,7 +58,7 @@ The intended outcome: at the moment Korean STO infrastructure selection is happe
 
 Work breaks into three phases, each part of a single end-to-end verification cycle:
 
-1. **Scope confirmation with TTA.** Engage TTA, confirm the BRV evaluation scope for the Canton private synchronizer, and publish a high-level statement of which National Cyber Security Center guideline requirement areas the synchronizer is verified against: cryptographic usage standards, account and key management, data-transmission security, consensus protocol, ledger, and smart contracts. The detailed guideline-to-test-item mapping is TTA-confidential and is not published; the public statement is limited to which requirements were verified.
+1. **Scope confirmation with TTA.** Engage TTA and confirm the BRV evaluation scope for the Canton private synchronizer against the National Cyber Security Center guideline's requirement areas: cryptographic usage standards, account and key management, data-transmission security, consensus protocol, ledger, and smart contracts. The evaluation scope and the detailed guideline-to-test-item mapping are TTA-confidential and are not published.
 
 2. **Submission package preparation.** Build the reproducible verification environment (deployment scripts, NUMA-aware host configuration, Postgres backing, Canton 3.x runtime), the test harness covering the reliability and security criteria, and the documentation set required for TTA evaluation. Open the public GitHub repo for the open-source artifacts at this stage.
 
