@@ -42,7 +42,7 @@ Demand for Canton on this substrate is not hypothetical. Nodeinfra, with the hel
 
 To date, no DLT has completed BRV with a privacy-preserving sub-net architecture, and no foreign chain has obtained it either. There are three reasons: the verification is specific to Korean regulations and the National Cyber Security Center guideline that underpins it; no other DLT structurally aligns with the amended Electronic Securities Act the way Canton does; and the STO regulatory framework itself was only finalized in January 2026. Canton would be the first. It enters the buildout window with a credential nobody else holds, just as Korean securities firms are choosing the substrate they will run STOs on for the next decade. The window for first-mover capture is open precisely because the rules just got drawn.
 
-The strategic payoff extends well beyond Korea in two dimensions. First, ecosystem lock-in: Korean financial institutions onboard onto the private synchronizer now, while regulation requires permissioned substrates. When Korean regulation matures to permit cross-domain interop, those institutions are positioned to seamlessly extend onto the global Canton synchronizer and align with CC and the broader Canton economy. Same chain, same software, same trust model; only the synchronizer scope changes. Second, APAC blueprint: the open-sourced verified reference deployment is intentionally structured to be portable, a runnable stack another vendor can stand up and cite, with documentation calling out Korea-specific versus reusable assumptions. Once the playbook exists, the marginal cost of clearing analogous verifications in Japan, Taiwan, Hong Kong, and other regulated APAC markets drops substantially.
+The strategic payoff extends well beyond Korea in two dimensions. First, ecosystem lock-in: Korean financial institutions onboard onto the private synchronizer now, while regulation requires permissioned substrates. When Korean regulation matures to permit cross-domain interop, those institutions are positioned to seamlessly extend onto the global Canton synchronizer and align with CC and the broader Canton economy. Same chain, same software, same trust model; only the synchronizer scope changes. Second, APAC blueprint: the open-sourced verified reference deployment is intentionally structured to be portable, a runnable stack another vendor can stand up and cite. Once the playbook exists, the marginal cost of clearing analogous verifications in Japan, Taiwan, Hong Kong, and other regulated APAC markets drops substantially.
 
 ---
 
@@ -83,7 +83,7 @@ Supporting notes:
 - TTA-verified deployment configuration and stack: the exact self-built deployment that cleared BRV, covering deployment / configuration scripts, NUMA-aware host tuning, Postgres backing, and the pinned Canton 3.x runtime substrate. This is the reusable core.
 - Benchmark harness, built on the upstream Canton performance suite: a Nodeinfra-authored tool that lets any third party re-run the stack and produce its own performance / reliability metrics.
 - Test harness (Nodeinfra-authored), published subject to consultation with TTA and scrubbed of anything that would reveal TTA test contents; scope confirmed at kickoff.
-- Engineering post-mortem and portability documentation calling out Korea-specific vs. reusable deployment assumptions, for analogous APAC regimes.
+- Engineering post-mortem describing findings, fixes, and the engineering work required to pass.
 
 Not published (TTA-confidential): the submission package, the evaluation checklist, the detailed guideline-to-test-item mapping, the detailed test contents, and the result report. Per TTA, the BRV result and the headline verified metrics are publicly citable subject to prior consultation with TTA; the proposal claims publication only of which guideline requirements were verified, not the detailed mapping behind them.
 
@@ -262,7 +262,7 @@ The two strategies reinforce each other: securities firms are reached from above
 
 ### Strategy 3 — Outward: APAC blueprint
 
-The open-source Apache 2.0 artifacts are structured for portability, with mapping documents calling out Korea-specific versus reusable assumptions. Once the playbook exists, the marginal cost of clearing analogous verifications in Japan, Taiwan, Hong Kong, and other regulated APAC markets drops substantially, extending Canton's reach beyond Korea at zero additional ecosystem cost.
+The open-source Apache 2.0 artifacts are structured for portability. Once the playbook exists, the marginal cost of clearing analogous verifications in Japan, Taiwan, Hong Kong, and other regulated APAC markets drops substantially, extending Canton's reach beyond Korea at zero additional ecosystem cost.
 
 ### Regulatory & legal education (law-firm partner)
 
