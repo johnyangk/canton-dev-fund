@@ -60,7 +60,7 @@ Work breaks into three phases, each part of a single end-to-end verification cyc
 
 1. **Scope confirmation with TTA.** Engage TTA and confirm the BRV evaluation scope for the Canton private synchronizer against the National Cyber Security Center guideline's requirement areas: cryptographic usage standards, account and key management, data-transmission security, consensus protocol, ledger, and smart contracts. The evaluation scope and the detailed guideline-to-test-item mapping are TTA-confidential and are not published.
 
-2. **Submission package preparation.** Build the reproducible verification environment (deployment scripts, NUMA-aware host configuration, Postgres backing, Canton 3.x runtime), the test harness covering the reliability and security criteria, and the documentation set required for TTA evaluation. Open the public GitHub repo for the open-source artifacts at this stage.
+2. **Evaluation submission preparation.** Build the reproducible verification environment (deployment scripts, NUMA-aware host configuration, Postgres backing, Canton 3.x runtime), the test harness covering the reliability and security criteria, and the documentation set required for TTA evaluation. Open the public GitHub repo for the open-source artifacts at this stage.
 
 3. **TTA evaluation cycle.** Submit, respond to findings through the standard TTA evaluation cadence (~2-month formal evaluation, with potential gap-closing work between rounds), and shepherd the package through to an issued verification result.
 
@@ -257,7 +257,7 @@ The infrastructure-operator tier (KSD, FSI, KFTC, and peer institutions designat
 
 In parallel, Nodeinfra builds a full-stack Korean STO issuance platform on top of the TTA-verified Canton private synchronizer, serving as the first production adopter of the credential this grant produces. This platform is a separate, commercially-funded Nodeinfra workstream (see Out of Scope) — the grant funds the public credential, not the platform — but it provides concrete, near-term proof that verification converts into real issuance activity on Canton rather than remaining a paper credential. Nodeinfra leverages its two leading Korean financial-group engagements (counterparties under NDA) as launch customers, and its established relationships with top Korean securities firms to generate demand-side pull across the application layer.
 
-The two strategies reinforce each other: securities firms are reached from above by an operator-blessed credential and from below by a working platform they can issue on today. Top-down supplies institutional legitimacy; bottom-up supplies a live reference deployment. Both meet at the securities-firm layer, where the bulk of STO issuance volume will sit.
+The two strategies reinforce each other: securities firms are reached from above by an operator-blessed credential and from below by a working platform they can issue on today. Top-down supplies institutional legitimacy; bottom-up supplies a live production deployment. Both meet at the securities-firm layer, where the bulk of STO issuance volume will sit.
 
 ### Strategy 3 — Outward: APAC blueprint
 
