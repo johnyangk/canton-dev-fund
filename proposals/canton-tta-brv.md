@@ -18,9 +18,9 @@ Nodeinfra, a Korea-based Daml/Canton firm with prior blockchain-TTA experience, 
 
 ## Impact
 
-Korean securities firms will make their first DLT choice ahead of the January 2027 STO deadline. That choice locks in their tokenization infrastructure for decades, and selection is defaulting toward Hyperledger Besu and Fabric.
+Korean institutions are making their first DLT choices now, across three fronts at once: securities firms ahead of the January 2027 STO deadline, and banks and the Bank of Korea as KRW stablecoin and CBDC rails take shape behind it. Those choices lock in the underlying infrastructure for decades, and selection is defaulting toward Hyperledger Besu and Fabric.
 
-Korea is opening its permissioned-DLT rails on two tracks at once: the Electronic Securities Act (STO, effective January 2027) and the Digital Asset Basic Act (KRW stablecoins, alongside the Bank of Korea's CBDC and deposit-token pilots), phasing in over the next few years. Same substrate, same operators, same window; a BRV credential now positions Canton across STO, stablecoin, and CBDC together.
+The Electronic Securities Act (STO) and the Digital Asset Basic Act (KRW stablecoins, alongside the Bank of Korea's CBDC and deposit-token pilots) run on the same permissioned substrate, selected by the same operators, in the same buildout window. A BRV credential now positions Canton across all three together.
 
 This credential is what puts Canton in front of them before that default hardens. The Canton Foundation can verify (under NDA) that a Korean financial authority has confirmed the importance of this credential.
 
@@ -28,7 +28,7 @@ This credential is what puts Canton in front of them before that default hardens
 
 ## Motivation
 
-Korean STO regulation is now law. The 「전자증권법」 (Electronic Securities Act) and 「자본시장법」 (Capital Markets Act) amendments passed the National Assembly on 2026-01-15 and take effect in January 2027. For the first time, distributed ledgers have legal status as the "electronic registration account book" (전자등록계좌부). This creates a hard, dated ~12-month window before STO issuance and trading can begin.
+Korean STO regulation is now law. The 「전자증권법」 (Electronic Securities Act) and 「자본시장법」 (Capital Markets Act) amendments passed the National Assembly on 2026-01-15 and take effect in January 2027. For the first time, distributed ledgers have legal status as the "electronic registration account book" (전자등록계좌부). This creates a hard, dated ~12-month window before STO issuance and trading can begin. The Digital Asset Basic Act is advancing in parallel, extending the same permissioned-DLT push to KRW stablecoins and the Bank of Korea's CBDC and deposit-token work over the next few years.
 
 The market this opens is large and concrete. BCG projects Korean tokenized securities at KRW 119T (~USD 85B) by 2026, KRW 233T by 2028, and KRW 367T (~USD 265B) by 2030 — 14.5% of Korean GDP (BCG forecast, as reported in the Korean financial press, 2026). These figures are at the optimistic end of tokenization forecasts; the case for verification holds well below them. KDX (KRX-led) and NXT (Nextrade-led) consortia have already been selected by the FSC as preliminary OTC trading platform operators. Securities firms (Mirae, Shinhan, NH, KB, and others) are racing to lock in infrastructure choices now, well before the effective date.
 
@@ -54,7 +54,7 @@ The strategic payoff extends well beyond Korea in two dimensions. First, ecosyst
 
 Take the Canton private synchronizer through Korea's TTA BRV, publish the verification result, and open-source the TTA-verified Canton deployment configuration and stack under Apache 2.0 (the exact deployment / configuration scripts, host tuning, pinned Canton runtime substrate, and the self-built harnesses to re-run it) as a reusable APAC blueprint.
 
-The intended outcome: at the moment Korean STO infrastructure selection is happening (mid-2026 through January 2027), the Canton private synchronizer holds a credential that puts it in the institutional selection pool. The credential is recognizable to procurement, risk, and compliance teams at KSD, FSI, KFTC, and peer infrastructure operators, and to their counterparts at securities firms downstream, as well as to the teams standing up Korea's KRW stablecoin and CBDC rails, since those decisions sit with the same institutions. The credential attaches to the Canton software and is therefore inherited by every team building on the private synchronizer, and the engineering artifacts to clear analogous regimes elsewhere are publicly available under Apache 2.0.
+The intended outcome: at the moment Korean infrastructure selection is happening (STO through January 2027, with KRW stablecoin and CBDC rails following), the Canton private synchronizer holds a credential that puts it in the institutional selection pool. The credential is recognizable to procurement, risk, and compliance teams at KSD, FSI, KFTC, and peer infrastructure operators, and to their counterparts at securities firms downstream, as well as to the teams standing up Korea's KRW stablecoin and CBDC rails, since those decisions sit with the same institutions. The credential attaches to the Canton software and is therefore inherited by every team building on the private synchronizer, and the engineering artifacts to clear analogous regimes elsewhere are publicly available under Apache 2.0.
 
 ### 2. Implementation Mechanics
 
@@ -251,7 +251,7 @@ Upon verification result issuance, Nodeinfra will collaborate with the Canton Fo
 
 - **Joint announcement** of BRV in both English and Korean
 - **Technical blog** documenting the verification journey at a publishable level (which NCSC-guideline requirement areas Canton was verified against, not the confidential test mapping) and the reusable deployment lessons for analogous verification regimes
-- **Korean-press outreach** (전자신문, 보안뉴스, 한국경제, etc.) — Korean-language explainer positioning Canton in the STO infrastructure landscape, co-branded with Canton Foundation
+- **Korean-press outreach** (전자신문, 보안뉴스, 한국경제, etc.) — Korean-language explainer positioning Canton across Korea's digital-asset infrastructure landscape (STO, KRW stablecoin, and CBDC), co-branded with Canton Foundation
 - **Ecosystem presentations** at Korean blockchain / FinTech events and at Canton-related conferences
 - **Verified-stack open-sourcing as marketing**: the public Apache 2.0 deployment configuration and stack is itself co-marketing material, showcasing a runnable, verification-ready Canton substrate to non-Korean APAC markets (the submission package itself stays confidential per TTA)
 
@@ -295,7 +295,7 @@ Discovery across all three strategies runs through the joint Canton Foundation a
 - **FSC regulatory-sandbox pilot:** running an actual STO under the FSC sandbox is possible, but takes ~12 months minimum and operates under sandbox-set scope constraints. The result is one-off for the participating issuer, not a transferable credential other firms can rely on.
 - **Marketing / education campaign only:** addresses the Canton-as-altcoin misperception but lacks an institutional anchor; securities-firm risk committees need a verifiable third-party signal to point to in their selection process.
 
-BRV is the only path that simultaneously provides three things: a blockchain-specific evaluation against the NCSC guideline that underpins infrastructure-operator security review; the credential that public-sector and quasi-public procurement at KSD, FSI, KFTC, and peer infrastructure operators applies; and a transferable credential that downstream securities firms, banks, and asset managers inherit without separate re-engagement.
+BRV is the only path that simultaneously provides three things: a blockchain-specific evaluation against the NCSC guideline that underpins infrastructure-operator security review; the credential that public-sector and quasi-public procurement at KSD, FSI, KFTC, and peer infrastructure operators applies; and a transferable credential that downstream securities firms, banks, stablecoin issuers, and asset managers inherit without separate re-engagement.
 
 **Why open-source over proprietary.** Much of the verified deployment configuration and stack is portable to other jurisdictions. Keeping it proprietary would protect Nodeinfra's incremental edge by a few quarters at most; releasing it under Apache 2.0 multiplies Canton's reach across APAC at zero marginal cost to the ecosystem. The APAC blueprint is, in many ways, the strongest part of this proposal, and it only exists if the artifacts are open.
 
