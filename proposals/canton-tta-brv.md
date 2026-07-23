@@ -1,6 +1,6 @@
 ## Proposal: Korean TTA Blockchain Reliability Verification of the Canton Private Synchronizer
 
-- **Author:** John Yang (Nodeinfra, Mirny Inc.)
+- **Author:** John Yang (Nodeinfra)
 - **Status:** Draft
 - **Created:** 2026-06-08
 - **Label:** regulatory-compliance
@@ -70,7 +70,7 @@ Work breaks into three phases, each part of a single end-to-end verification cyc
 
 | Company / Developer | Platform / Solution | TTA Verification Type | Key Verified Metrics |
 |---|---|---|---|
-| Nodeinfra (Mirny Inc.), for the Canton Foundation ecosystem | Canton Private Network | Blockchain Reliability Verification | Demonstrated TPS scalability; BFT fault tolerance and total-supply preservation; account and key-management security; smart-contract and source-code security; privacy-preserving sub-net architecture; node-role separation aligned with the amended Electronic Securities Act |
+| Nodeinfra, for the Canton Foundation ecosystem | Canton Private Network | Blockchain Reliability Verification | Demonstrated TPS scalability; BFT fault tolerance and total-supply preservation; account and key-management security; smart-contract and source-code security; privacy-preserving sub-net architecture; node-role separation aligned with the amended Electronic Securities Act |
 
 Supporting notes:
 
@@ -309,7 +309,7 @@ BRV is the only path that simultaneously provides three things: a blockchain-spe
 
 ## Team
 
-**Nodeinfra (Mirny Inc.)**: a Daml software development firm and Canton NaaS (Node-as-a-Service) provider based in Korea, currently operating 4 Canton nodes in production. Four blockchain engineers and one security engineer will be allocated full-time to this verification.
+**Nodeinfra**: a Daml software development firm and Canton NaaS (Node-as-a-Service) provider based in Korea, currently operating 4 Canton nodes in production. Four blockchain engineers and one security engineer will be allocated full-time to this verification.
 
 - Prior TTA verification experience, specifically for blockchain infrastructures. Nodeinfra has successfully completed TTA verifications for blockchain infrastructure as part of the Korean government's TIPS (Tech Incubator Program for Startups) program. TTA's blockchain-specific verification practice is recent. The number of teams that have shepherded a blockchain stack through evaluation end-to-end is small, and almost all of them are inside chains that own their own Korean-built L1s (Aergo, loopchain, etc.). Nodeinfra is one of the few independent, vendor-agnostic teams with this experience.
 - Building [Musubi Network](https://musubinetwork.com/) with SBI Digital Practice, Canton-native infrastructure for FX trading and stablecoin settlement (including JPYSC, the SBI and Startale Japanese-yen stablecoin), demonstrating production Canton and Daml capabilities. This is direct production experience with stablecoin settlement on Canton, transferable to a KRW stablecoin on the same verified synchronizer.
@@ -317,7 +317,7 @@ BRV is the only path that simultaneously provides three things: a blockchain-spe
 - Direct operational experience with the Canton private synchronizer in production, covering the deployment, monitoring, and key-management posture that a BRV evaluation will scrutinize.
 - Established working relationships with Korean financial counterparties at the application layer (securities firms, financial groups); infrastructure-operator engagement (KSD, FSI, KFTC, and peer institutions) initiated through this grant and the TTA verification process.
 
-**John Yang, CEO and Founder, Nodeinfra (Mirny Inc.)**: [johnyangk.github.io](https://johnyangk.github.io/)
+**John Yang, CEO and Founder, Nodeinfra**: [johnyangk.github.io](https://johnyangk.github.io/)
 
 - First author of papers at top systems and computer-science conferences (OSDI, USENIX ATC, EuroSys). Brings the systems-engineering depth required to map Canton's architecture onto the NCSC guideline's reliability and security requirements and to lead the evaluation-response cycle credibly.
 
